@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     overflow-y: hidden;
 }
+
 header{
     height:70px;
     width: 100%;
@@ -46,14 +47,13 @@ a{
 h3{
     color: white;
 }
+
 main{
     min-height: 700px;
     width: 100%;
     flex-grow: 1;
 }
-a{
-    text-decoration: none;
-}
+
 
 
 footer{
