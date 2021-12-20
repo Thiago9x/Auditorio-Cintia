@@ -24,19 +24,17 @@ header{
     float: left;
 }
 #menu{
-    width: 35%;
+    width: 500px;
     height: 70px;
     float: right;
     display: flex;
     flex-direction: row;
-    justify-content: END;
+    justify-content: center;
     align-items: center;
-    /* border: solid 1px black; */
 }
 .itens-menu{
     height: 35px;
-    width: 50%;
-    margin-right: 15px;
+    width: 250px;
 }
 a{
     font-style: none;
