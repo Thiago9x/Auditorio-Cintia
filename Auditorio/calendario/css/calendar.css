@@ -11,7 +11,7 @@
 }
 
 .root {
-    min-height: 100vh;
+    min-height: 350px;
     padding: 0 15px;
     display: flex;
     justify-content: center;
@@ -32,6 +32,43 @@
 }
 h1{
     text-align: center;
+    padding-top: 20px;
+}
+
+#inputs{
+    padding-top: 20px;
+    text-align: center;
+}
+.inputsTexto {
+    width:200px;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #C1C1C1;
+    color: #000;
+    border: none;
+}
+#botao{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+input-placeholder{
+    color: #ffffff;
+}
+.botaoContato{
+    height: 30px;
+    width: 200px;
+   margin-top: 20px;
+   margin-left: 15px;
+   background-color: #006699;
+   color: aliceblue;
+   border-radius: 5PX;
+   border:none;
+
 }
 
 .calendar__header {

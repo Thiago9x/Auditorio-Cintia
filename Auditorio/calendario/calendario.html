@@ -14,16 +14,16 @@
 </head>
 <body>
     <header>
-        <a href="../principal/index.html">
+        <a href="">
             <img id='logo' src="./img/senai-logo.png" alt="">
         </a>
         <div id='menu'>
-        <a href="../login/index.html">
+        <a href="">
             <div class="itens-menu">
                 <h3>AREA ADMINISTRATIVA</h3>
             </div>
         </a>
-        <a href="./calendario.html">    
+        <a href="">    
             <div class="itens-menu">
                 <h3>VERIFIQUE A DISPONIBILIDADE</h3>
             </div>
@@ -35,7 +35,7 @@
         <div>
     <div class="root">
         <div class="calendar" id="calendar">
-
+                <!-- CALENDARIO -->
         </div>
     </div>
     <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
@@ -46,10 +46,20 @@
         calendar.getElement().addEventListener('change', e => {
             console.log(calendar.value().format('LLL'));
         });
-    </script>   
+    </script> 
     </div>
-
-    
+        <h1>Horario Indisponivel</h1>  
+    <div id="inputs">
+        <input class="inputsTexto" type="nome" placeholder="Nome">
+        <input class="inputsTexto" type="nome" placeholder="Tipo Evento">
+        <input class="inputsTexto" type="nome" placeholder="E-mail">
+        <input class="inputsTexto" type="nome" placeholder="Data">
+    </div>
+    <h1>ENTRE EM CONTATO COM O ADMINISTRADOR</h1>
+    <div id="botao">
+        <input class="botaoContato" type="submit" value="Whatsapp">
+        <input class="botaoContato" type="submit" value="E-mail">
+    </div>
 
     </main>
     <footer>
